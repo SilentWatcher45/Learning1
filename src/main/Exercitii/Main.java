@@ -12,7 +12,7 @@ public class Main {
 		
 		System.out.println(cifre.parity(cif2, "totale" ));
 		System.out.println("Salut!!!!!");
-		
+		System.out.println("commit1");
 		
 		
 		
