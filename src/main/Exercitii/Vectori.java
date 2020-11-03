@@ -2,6 +2,12 @@ package main.Exercitii;
 
 public class Vectori {
 
+	/**
+	 * Orice
+	 * @param v
+	 * @param check
+	 * @return
+	 */
 	public String parity(int[] v, String check) {
 		String pare = "pare: ";
 		String impare = "impare: ";
