@@ -5,7 +5,7 @@ public class Sirul {
 	
 	/* Sirul lui Fibonnaci */
 	
-	public String fibo(int[] fib, int fibIndex) {
+	public void fibo(int[] fib, int fibIndex) {
 		
 		/* Vom afisa totul intr-o variabila String */
 
@@ -30,9 +30,6 @@ public class Sirul {
 			fibonnaci = "Primele " + fibIndex + " numere din Siirul lui Fibonnaci sunt: \n" + fib[i] + " ";
 			System.out.println(fibonnaci);
 		}
-
-		return fibonnaci;
-
 	}
 
 }

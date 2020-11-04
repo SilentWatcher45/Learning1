@@ -25,11 +25,15 @@ public class Main {
 
 		System.out.println("Primele " + (index + 2) + " numere din sirul Fibonacci sunt: \n");
 		System.out.println(first + "\n" + second);
-		System.out.println(fibonaci.fido(first, second, index));
+		// CS: Tu printezi fiecare element al sirului (mai putin primii 2 ffs) din
+		// metoda apelata -> fido(first, second, index) si prin System.out.println mai
+		// printezi o data ce primeste de la metoda, acel "fibon" returnat la final,
+		// adica ultima valoare a sirului. Doar nu o mai apela and solved!
+//		System.out.println(fibonaci.fido(first, second, index));
+		fibonaci.fido(first, second, index);
 
 //		System.out.println(fibonaci.fido(10));
 
 	}
 
 }
-
