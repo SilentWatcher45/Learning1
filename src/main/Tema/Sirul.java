@@ -25,7 +25,10 @@ public class Sirul {
 		/* Stringul primeste valorie sirului  */
 		
 		for (int i = 0; i < fibIndex; i++) {
+		
+			
 			fibonnaci = "Primele " + fibIndex + " numere din Siirul lui Fibonnaci sunt: \n" + fib[i] + " ";
+			System.out.println(fibonnaci);
 		}
 
 		return fibonnaci;

@@ -3,16 +3,18 @@ package main.Tema;
 public class Main {
 
 	public static void main(String[] args) {
+
+		Sirul2 fibonaci = new Sirul2();
+
+		int index = 4;
+		int first = 0;
+		int second = 1;
+		System.out.println("Primele " + index + " Numere din sirul Fibonacci sunt:" );
+		System.out.println(first + "\n" + second);
+		System.out.println(fibonaci.fido(index));
 		
-			Sirul fibonaci = new Sirul(); 	
-			
-			int [] f1 = {0,1};
-			int index = 10;
-		
-		System.out.println(fibonaci.fibo(f1, index));
-		
-		
-		
+//		System.out.println(fibonaci.fido(10));
+
 	}
 
 }
