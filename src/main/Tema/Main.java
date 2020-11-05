@@ -1,5 +1,6 @@
 package main.Tema;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -30,9 +31,8 @@ public class Main {
 		// printezi o data ce primeste de la metoda, acel "fibon" returnat la final,
 		// adica ultima valoare a sirului. Doar nu o mai apela and solved!
 //		System.out.println(fibonaci.fido(first, second, index));
-		fibonaci.fido(first, second, index);
 
-//		System.out.println(fibonaci.fido(10));
+		fibonaci.fido(first, second, index);
 
 	}
 
