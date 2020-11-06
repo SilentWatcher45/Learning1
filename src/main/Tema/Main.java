@@ -9,9 +9,9 @@ public class Main {
 
 		Sirul2 fibonaci = new Sirul2();
 
-		int index;
-		int first;
-		int second;
+		double index;
+		double first;
+		double second;
 
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Introduceti primele doua valori ale sirului: \n");

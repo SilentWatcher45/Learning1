@@ -4,13 +4,13 @@ public class Sirul2 {
 
 	// Sirul lui Fibonnaci
 
-	public String fido(int f, int s, int fibIndex) {
+	public String fido(double f, double s, double fibIndex) {
 
 		// Doua numere f = first (prima valoare)
 		// s = second (a doua valoare)
 		double medAr = 0;
-		int t;
-		int sum = f + s;
+		double t;
+		double sum = f + s;
 		String fibon = "";
 
 		// Calculam suma lui f + s si o afisam
