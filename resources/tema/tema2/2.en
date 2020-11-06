@@ -1,6 +1,7 @@
    Tema 2 Enunt: 
 	
- - Sa se calculeze amprenta unui sir dupa regulile urmatoare:
+- Se introduce de la tastatura dimensiunea unui vector si elementele acestuia (nr intregi). 
+Sa se calculeze amprenta unui sir dupa regulile urmatoare:
  
  1. Daca pozitia numarului este para, se scade din rezultat
  2. Daca pozitia numarului este impara se adauga in rezultat
