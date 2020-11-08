@@ -24,7 +24,7 @@ public class Main {
 		System.out.println("\n");
 		sc.close();
 
-		System.out.println("Primele " + (index + 2) + " numere din sirul Fibonacci sunt: \n");
+		System.out.println("Primele " + (index) + " numere din sirul Fibonacci sunt: \n");
 		System.out.println(first + "\n" + second);
 		// CS: Tu printezi fiecare element al sirului (mai putin primii 2 ffs) din
 		// metoda apelata -> fido(first, second, index) si prin System.out.println mai

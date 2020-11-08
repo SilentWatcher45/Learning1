@@ -15,7 +15,7 @@ public class Sirul2 {
 
 		// Calculam suma lui f + s si o afisam
 
-		for (int i = 0; i < fibIndex; i++) {
+		for (int i = 0; i < fibIndex - 2; i++) {
 
 			t = f;
 			f = s;
@@ -26,7 +26,7 @@ public class Sirul2 {
 
 		}
 
-		medAr = sum / (fibIndex + 2);
+		medAr = sum / (fibIndex);
 		System.out.println("\nSuma elementelor sirului este: \n");
 		System.out.println(sum);
 		System.out.println("\nMedia aritmetica a elementelor sirului este: \n");

@@ -3,10 +3,9 @@
 - Se introduce de la tastatura dimensiunea unui vector si elementele acestuia (nr intregi). 
 Sa se calculeze amprenta unui sir dupa regulile urmatoare:
  
- 1. Daca pozitia numarului este para, se scade din rezultat
- 2. Daca pozitia numarului este impara se adauga in rezultat
- 3. Daca pozitia numarului este divizibil cu 3, se adauga in rezultat, daca nu se scade
- 4. Daca pozitia numarului este divizibil cu 5 se inmulteste in rezultat, daca nu se imparte din rezultat
+ 1. Daca pozitia numarului este para, se scade din rezultat, daca nu se adauga in rezultat
+ 2. Daca pozitia numarului este divizibil cu 3, se adauga in rezultat, daca nu se scade
+ 3. Daca pozitia numarului este divizibil cu 5 se inmulteste in rezultat, daca nu se imparte din rezultat
  
  Se calculeaza 2 amprente pentru sir:
  - prima: acolo unde se indeplinesc 2 sau mai multe conditii, se va indeplini doar una 
@@ -24,3 +23,6 @@ Sa se calculeze amprenta unui sir dupa regulile urmatoare:
  amprenta 1 = 46
  amprenta 2 = 45
  
+				
+				
+				
