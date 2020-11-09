@@ -11,7 +11,7 @@ public class Main {
 //		int [] sir2 = {25, 49, 22, 344, 15, 64, 77, 14, 4};
 		
 		System.out.println(sirul.amprenta1(sir));
-		System.out.println(sirul.amprenta(sir));    
+		System.out.println(sirul.amprenta2(sir));    
 	}
 
 }

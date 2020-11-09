@@ -2,7 +2,7 @@ package main.Tema2;
 
 public class Vector {
 
-	public int amprenta(int[] v) {
+	public int amprenta1(int[] v) {
 
 		int amp = 0;
 
@@ -28,33 +28,23 @@ public class Vector {
 		return amp;
 	}
 
-
-
-	public int amprenta1(int[] v) {
+	public int amprenta2(int[] v) {
 
 		int amp = 0;
 
 		for (int i = 0; i < v.length; i++) {
 			if (i % 2 == 0) {
-				amp = amp - v[i];
-				if (i % 3 == 0) {
-					amp = amp + v[i];
-					if (i % 5 == 0) {
-						amp = amp * v[i];
-					} else
-						amp = amp / v[i];
-				} else
-					amp = amp - v[i];
+				amp -= v[i];
 			} else
-				amp = amp + v[i];
+				amp += v[i];
 			if (i % 3 == 0) {
-				amp = amp + v[i];
-				if (i % 5 == 0) {
-					amp = amp * v[i];
-				} else
-					amp = amp / v[i];
+				amp += v[i];
 			} else
-				amp = amp - v[i];
+				amp -= v[i];
+			if (i % 5 == 0) {
+				amp *= v[i];
+			} else
+				amp /= v[i];
 		}
 		return amp;
 	}
