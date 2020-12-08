@@ -1,0 +1,19 @@
+ Part 1
+ 
+ Se da un vector: 
+ 
+
+ 1.1 vectorul are nr intregi. daca un element este impar, se va inlocui cu dublul sau!!!!!
+ 1.2 un vector de striguri. sa se curete vectorul de mizerii (spatii, caractere speciale, literele mari vor fi mici
+ 0.1 Se da un vector si un string. Srtingul este o fraza. Vectorul este un alfabet.
+  
+ 
+ Part 2 
+ 
+ 2.1 Se da o matrice de 64x64 ( harta noastra ). Fat Frumos este pe pozitia 0.0. 
+ Cenusareasa se va spawna undeva pe harta aleator undeva pe harta.
+ In pozitii aleeatoare se spawneaza niste gauri negre in harta unde FF moare.
+ Fat Frumos trebuie sa o gaseaca dar pe drum exista 1% gauri negre.
+ FF trebuie sa ajunga in siguranta la C.
+ 
+ 2.2 Un joc de x si zero interactiv. player vs player.

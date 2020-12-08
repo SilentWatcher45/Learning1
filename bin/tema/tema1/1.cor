@@ -1,0 +1,16 @@
+Tema 1 Corectare:
+
+Corect:
+
+- Calculele pentru suma si medie sunt corecte
+   
+Observatii:
+   
+- 1.rez:3:39 - nu exista
+  1.rez:5:39 - nu exista
+   	 
+(in fisierul 1.rez la linia 3 la coloana 39, nu exista un main in Sirul2.java, la fel si linia 5)
+   	 
+Probleme:
+
+- Imi apare sa introduc cate numere din sirul lui Fibonacii vreau sa vad, dar apoi imi arata cu 2 mai multe. Eu imi doresc sa vad doar cate ii dau.

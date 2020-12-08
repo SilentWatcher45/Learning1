@@ -1,0 +1,26 @@
+Plan de bataie X si Zero11!1 
+
+player1,2 = nume (numele poate fi introdus de la tastatura)
+			fiecare player isi alege cu ce vrea sa joace (X sau O)
+			scorul trebuie afisat pentru ambii playeri
+			trebuie afisat si pentru game-uri
+			
+
+jocul trebuie sa ruleze in loop dupa fiecare runda pana se indeplineste conditia
+ca un jucator sa fi atins nr maxim de game-uri si este declarat castigator!
+
+Start game: 
+
+- selectie random intre p1 si p2 - p1,care va incepe primul!
+- p1 va introduce pozitia din matrice pe care se va fisa x sau o
+- p2 va introduce pozitia din matrice pe care se va fisa x sau o
+- jocul continua pana cand pe o linie/coloana/diagonala se afla x/o
+- daca se indeplineste conditia de mai sus, in fuctie de alegrea initiala (x/o),
+  p1/p2 primeste 1 in game.count
+- jocul contiua in loop pana ce unul dintre playeri ajunge la 6 gameuri castigate
+  din 10 meciuri jucate. 
+
+  Algoritm: 
+  
+  System.out.println("Introduceti numele celui de-al doilea jucator: ");
+ 
